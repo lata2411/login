@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+   
+}
+#cont{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
+form{
+    background-color: rgba(87, 198, 59, 0.884);
+    width: 18%;
+    border: 2px solid rgb(90, 84, 84);
+    /* margin-top: 20px; */
+    padding: 20px ;
+}
+img{
+    width: 100%;
+    /* height: 80px; */
+    margin-bottom: 30px;
+}
+input{
+    width: 96%;
+    height:10%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    width: 100%;
+    height: 35px;
+    background-color: rgba(22, 131, 195, 0.773);
+    border: none;
+    border-radius: 8px;
+    color: bisque;
+    font-weight: 80px;
+    font-size: 14px;
+}
+h3{
+    text-align: center;
+    color: rgba(53, 57, 57, 0.87);
+    
+/* text-align:center are not working for inline contaent */
+a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+#fb{
+    font-size: 10px;
+}
+/* hr{
+    position: absolute;
+    top: 16%;
+    /* y axis */
+    left: 0%;
+    /* x axis */
+    /* z-index: 1;
+    /* z axis */
+    /* width: 100%;
+    background-color: rgb(221, 241, 241); */
+ */ */
+h3{
+    position: absolute;
+    z-index: 3;
+    top: -70%;
+    left: 45%;
+}
+}
+#or-cont{
+    position: relative;
+    height: 40px;
+    margin-top:20px ;
+}
